@@ -62,7 +62,7 @@ class SRTItem:
 
 
 SRT_TIME_RE = re.compile(
-    r"(?P<sh>\d{2}):(?P<sm>\d{2}):(?P<ss>\d{2})[,\.](?P<sms>\d{3})\s*-->\s*(?P<eh>\d{2}):(?P<em}\d{2}):(?P<es}\d{2})[,\.](?P<ems}\d{3})"
+    r"(?P<sh>\d{2}):(?P<sm>\d{2}):(?P<ss>\d{2})[,\.](?P<sms>\d{3})\s*-->\s*(?P<eh>\d{2}):(?P<em>\d{2}):(?P<es>\d{2})[,\.](?P<ems>\d{3})"
 )
 
 
